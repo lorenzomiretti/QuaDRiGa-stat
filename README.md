@@ -10,7 +10,7 @@ QuaDRiGa, it is intrinsically incompatible with the abovementioned statistical a
 that closely follow 3GPP guidelines while maintaning the convenient properties of simplified models such as the omnipresent spatially correlated Rayleigh fading model.
 
 ## Notes
-I am developing this experimental version mostly for my own research. It is currently in a very early stage of development, and it has been tested only under the restricted setup documented in `QuaDriGa_stat_tutorial.m`. 
+I am developing this experimental version mostly for supporting my own research. It is currently in a very early stage of development, and it has been tested only under the restricted setup documented in `QuaDriGa_stat_tutorial.m`. 
 Many bugs and inconsitencies are to be expected.
 
 QuaDRiGa v2.8.1 is released under the
