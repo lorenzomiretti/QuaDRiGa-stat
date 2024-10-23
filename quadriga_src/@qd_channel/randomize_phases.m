@@ -14,10 +14,7 @@ function randomize_phases( h_channel )
 %   
 %   Note: all snapshots are updated using the same phase shift, to keep the
 %   deterministic phase relations across multiple snapshots consistent. 
-%
-% Output:
-%   coeff
-%   The updated channel coefficients
+
 
 
 if numel( h_channel ) > 1
