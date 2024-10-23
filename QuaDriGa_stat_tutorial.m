@@ -1,9 +1,15 @@
-%% Simulation of MIMO networks for statistical analysis
+%% Tutorial for the third-party modified version QuaDRiGa-stat of the Fraunhofer QuaDRiGa
 % Author: Lorenzo Miretti
-% 
-%   Tutorial for the third-party modified version QuaDriGa-stat of the Fraunhofer QuaDRiGa v2.8.1-0
 %
-%   Tested with MATLAB R2023b, 3GPP baseline mode, and single snapshot layouts
+%   This tutorial shows how to use QuaDRiGa-stat to generate i.i.d. channel
+%   samples that can be used to perform conventional statistical
+%   simulations of MIMO fading channels. In addition, it shows how obtain
+%   relevant statistical parameters of the fading process such as the
+%   spatial channel covariance matrix. The tutorial focuses on a
+%   distributed MIMO setup with multi-antenna UEs and multi-antenna APs. 
+%
+%   Tested with MATLAB R2023b, 3GPP baseline mode, and single snapshot
+%   layouts.
 
 %% Initialization
 clear variables
@@ -123,7 +129,7 @@ beta = norm(c(ap,ue).coeff,"fro")^2;                            % Compute path l
 % The remain parts can be recovered since the matrices are block Toeplitz
 % and Hermitian symmetric.
 
-% Draw an i.i.d. channel realization over all subcarriers
+% Draw an i.i.d. wideband channel realization 
 randomize_phases(c(ap,ue));                                     % Draw i.i.d. phases for each path
 H = c(ap,ue).fr(bandwidth,subcarriers);                         % Get frequency response 
 
