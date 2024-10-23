@@ -2,7 +2,7 @@
 % Author: Lorenzo Miretti
 %
 %   This tutorial shows how to use QuaDRiGa-stat to generate i.i.d. channel
-%   samples to perform conventional statisticaln simulations of MIMO fading 
+%   samples to perform conventional statistical simulations of MIMO fading 
 %   channels. In addition, it shows how to obtain relevant statistical 
 %   parameters of the fading process such as the spatial channel covariance 
 %   matrix. The tutorial focuses on a dense MIMO network with multi-antenna 
